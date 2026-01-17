@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
-import 'package:t_stroy/features/auth/Screen/widgets/onBoarding_Screen/onboarding_screen.dart';
+import 'package:t_stroy/features/auth/Screen/onBoarding_Screen/onboarding_screen.dart';
 import 'package:t_stroy/utils/theme/theme.dart';
 
 void main() {
