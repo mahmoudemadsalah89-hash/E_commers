@@ -1,0 +1,65 @@
+name: t_stroy
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+# --state Management
+  get: ^4.7.2
+  get_storage: ^2.1.1
+# -- ICON PACKAGES
+  iconsax: ^0.0.8
+  cupertino_icons: ^1.0.8
+  line_awesome_flutter: ^3.0.1
+  google_fonts: ^6.3.3
+  http: ^1.6.0
+  logger: ^2.6.2
+  flutter_native_splash: ^2.4.7
+  smooth_page_indicator: ^2.0.1
+  url_launcher: ^6.3.2
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+#-----------------assets-------------#
+  assets:
+    - assets/logo/
+    - assets/images/
+    - assets/icons/brands/
+    - assets/images/profile/
+    - assets/images/dashboard/
+    - assets/images/splash_images/
+    - assets/images/welcome_images/
+    - assets/images/forget_password/
+    - assets/images/on_boarding_images/
+    - assets/images/animations/
+    - assets/images/banners/
+    - assets/icons/payment_methods/
+    - assets/images/products/
+    - assets/images/brands/
+    - assets/icons/categories/
+    - assets/icons/payment_methods/paypal.png
+
+
+
+  # see https://flutter.dev/to/font-from-package
