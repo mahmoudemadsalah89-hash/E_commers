@@ -29,17 +29,17 @@ class OnboardingScreen extends StatelessWidget {
             onPageChanged: controller.updatePageIndicator,
             children: [
               OnboardingPage(
-                image: "assets/images/0n_boarding_images/on-boarding-image-1.png",
+                image: "assets/images/on_boarding_images/on-boarding-image-1.png",
                 title: "Create your own stroy",
                 subTitle: "Create your own stroy and share it with the word",
               ),
               OnboardingPage(
-                image: "assets\images\on_boarding_images\on-boarding-image-2.png",
+                image: "assets/images/on_boarding_images/on-boarding-image-2.png",
                 title: "Tell your story",
                 subTitle: "Tell your story and share it with the word",
               ),
               OnboardingPage(
-                image: "assets\images\on_boarding_images\on-boarding-image-3.png",
+                image: "assets/images/on_boarding_images/on-boarding-image-3.png",
                  title: "Get inspired",
                 subTitle: "Get Inspired by other stories and share your own"
               ),

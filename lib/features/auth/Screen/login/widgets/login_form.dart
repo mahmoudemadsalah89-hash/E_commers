@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
- import "package:t_stroy/utils/contents/sizes.dart";
- import 'package:t_stroy/utils/contents/text_strings.dart';
+import 'package:t_stroy/features/auth/Screen/signup/signup_Screen.dart';
+import "package:t_stroy/utils/contents/sizes.dart";
+import 'package:t_stroy/utils/contents/text_strings.dart';
 
 class TLoginForm extends StatelessWidget {
   const TLoginForm({super.key});
@@ -42,7 +44,10 @@ class TLoginForm extends StatelessWidget {
                     const Text(TTexts.tRememberMe),
                   ],
                 ),
-                TextButton(onPressed: () {}, child: const Text(TTexts.tForgetPassword)),
+                TextButton(
+                  onPressed: () {},
+                  child: const Text(TTexts.tForgetPassword),
+                ),
               ],
             ),
             const SizedBox(height: TSizes.spaceBtwSections),
@@ -50,14 +55,18 @@ class TLoginForm extends StatelessWidget {
             /// زر تسجيل الدخول
             SizedBox(
               width: double.infinity,
-              child: ElevatedButton(onPressed: () {}, child: const Text(TTexts.tLogin)),
+              child: ElevatedButton(onPressed: () {}, child: Text("Login")),
             ),
+
             const SizedBox(height: TSizes.spaceBtwItems),
 
             /// زر إنشاء حساب
             SizedBox(
               width: double.infinity,
-              child: OutlinedButton(onPressed: () {}, child: const Text(TTexts.tSignup)),
+              child: ElevatedButton(
+                onPressed: () => Get.to(() => SignupScreen()),
+                child: const Text("Sign Up"),
+              ),
             ),
           ],
         ),

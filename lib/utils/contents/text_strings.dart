@@ -77,6 +77,9 @@ class TTexts {
   static const String tSignUpTitle = "Get On Board!";
   static const String tSignUpSubTitle = "Create your profile to start your Journey.";
   static const String tAlreadyHaveAnAccount = "Already have an Account";
+  static const String tiAgree = "IAgree";
+  static const String tprivacyPolicy ="privacyPolicy";
+  static const String ttermsOfUse = "termsOfUse";
 
   // -- Verify Email Screen Text
   static const String confirmEmail = "Verify your email address!";
